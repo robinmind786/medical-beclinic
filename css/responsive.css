@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+	.info .info-content .info-item .info-body  h2 {
+	    font-size: 20px;
+	}
+	.info {
+	    height: 129vh;
+	}
+	.greeting .greeting-content {
+	    width: 100%;
+	}
+	.reviews .reviews-content .reviews-desc {
+	    padding: 0 20px;
+	}
+	.reviews .reviews-content .reviews-desc h3 {
+		font-size: 16px;
+	}
+	.reviews .reviews-content .next {
+	    font-size: 30px;
+	}
+
+	.reviews .reviews-content .prev {
+	    font-size: 30px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	.info {
+	    height: 110vh;
+	}
+	.greeting .greeting-content {
+	    width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+	.info {
+	    height: 50vh;
+	}
+	.greeting .greeting-content {
+	    width: 80%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.info {
+	    height: 35vh;
+	}
+	.greeting .greeting-content {
+	    width: 70%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.info {
+	    height: 35vh;
+	}
+	.greeting .greeting-content {
+	    width: 60%;
+	}
+}
+

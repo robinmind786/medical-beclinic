@@ -1,0 +1,338 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #616262;
+}
+
+:root {
+    --main-color: #2a93c9;
+    --normal-color: #ffffff;
+    --bg-color: #f7fafb;
+    --border: #edeff1;
+    --border-one: #6cc8df;
+    --border-two: #56b0d2;
+    --border-three: #2a88c9;
+    --dark-color: #000000;
+
+}
+
+header {
+    background: url('/img/header.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+
+
+
+/*info*/
+.info {
+    background: var(--bg-color);
+    height: 40vh;
+}
+
+.info .opening-info {
+    position: relative;
+    width: 100%;
+}
+
+.info .opening-info .info-content {
+    position: absolute;
+    margin-top: -50px;
+    background: var(--normal-color);
+    width: 100%;
+
+}
+
+
+.info .info-content .info-item {
+    padding: 1rem 30px;
+}
+
+.info .info-content .info-item:nth-child(1) {
+    border-bottom: 8px solid var(--border-one);
+}
+
+.info .info-content .info-item:nth-child(2) {
+    border-bottom: 8px solid var(--border-two);
+}
+
+.info .info-content .info-item:nth-child(3) {
+    border-bottom: 8px solid var(--border-three);
+}
+
+.info .info-content .info-item .info-body {
+    margin-top: 20px;
+    line-height: 60px;
+}
+
+.info .info-content .info-item .info-body .time {
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info .info-content .info-item .info-body .time span {
+    color: var(--main-color);
+}
+
+.info .info-content .info-item .info-body  h2 {
+    color: var(--dark-color);
+    font-size: 27px;
+}
+
+.info .info-content .info-item .info-body .timetable {
+    margin-top: 2rem;
+}
+
+
+
+/*Services*/
+.services {
+    background: var(--bg-color);
+}
+
+.item-content {
+    margin-top: 3rem;
+}
+/*greeting*/
+.greeting {
+    background: url(/img/greeting.jpg) no-repeat center center/cover;
+}
+
+.greeting .greeting-content {
+    width: 50%;
+}
+
+.greeting .greeting-content h1 {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 0px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.greeting .greeting-content .greeting-desc1 {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 2rem;
+}
+
+.greeting .greeting-content .greeting-desc2 {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    margin-bottom: 3rem;
+}
+
+.greeting .greeting-content .greeting-btn a {
+    font-family: "Lato", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.1em;
+    letter-spacing: 2px;
+    fill: #2a93c9;
+    color: #2a93c9;
+    background-color: #ffffff;
+    padding: 21px 50px 21px 50px;
+    border-radius: 6px;
+    transition: all .3s ease;
+}
+
+.greeting .greeting-content .greeting-btn a:hover {
+    background: var(--main-color);
+    color: var(--normal-color);
+}
+
+
+
+/*Department*/
+.department .item-content {
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.department .item-content:hover {
+    background: var(--normal-color);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .19);
+}
+
+.department .item-content a {
+    text-decoration: none;
+    color: #1e2428;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+/*Reviews*/
+.reviews {
+    padding: 100px 0;
+    background: url('/img/review.jpg') no-repeat center center/cover;
+}
+.reviews img {
+    width: 150px;
+    height: 150px;
+}
+
+.reviews .reviews-content {
+    position: relative;
+    text-align: center;
+}
+
+.reviews .reviews-content .next {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+.reviews .reviews-content .prev {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.reviews .reviews-content .prev:hover,
+.reviews .reviews-content .next:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.reviews .reviews-content .reviews-desc {
+    padding: 0 5rem;
+}
+
+.reviews .reviews-content .reviews-desc h3 {
+    font-size: 25px;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+.reviews .reviews-content .reviews-name {
+    font-size: 20px;
+}
+
+.reviews .reviews-content .reviews-address {
+    font-size: 1rem;
+}
+
+/*team*/
+.team {
+
+}
+.team .item-content {
+    padding-bottom: 3rem;
+    transition: all .5s ease;
+}
+
+.team .item-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .3);
+}
+
+.team .item-content .team-img {
+    position: relative;
+    width: 100%;
+}
+
+.team .item-content .team-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background: rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.team .item-content .team-img:hover .overlay {
+    opacity: 1;
+}
+
+.team .item-content .team-img .overlay .team-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team .item-content .team-img .overlay .team-social ul {
+    display: flex;
+}
+.team .item-content .team-img .overlay .team-social ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.team .item-content .team-img .overlay .team-social ul li a {
+    color: var(--normal-color);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.team .item-content .team-img .overlay .team-social ul li a:hover {
+    color: var(--main-color);
+}
+
+.team img {
+    width: 100%;
+}
+
+.team .team-info {
+    padding-top: 16px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.team .team-info .team-name h4 a {
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all .3s ease;
+}
+
+.team .team-info .team-name h4 a:hover {
+    color: var(--main-color);
+}
