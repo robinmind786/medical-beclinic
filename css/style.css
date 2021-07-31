@@ -41,6 +41,7 @@ nav {
     width: 100%;
     left: 0;
     z-index: 99;
+    transition: all .5s ease;
 }
 
 nav .topnav {
@@ -229,7 +230,7 @@ nav .topnav .nav-links .sidenav-logo {
 
     nav .topnav .nav-links .links li .sub-menu {
         position: relative;
-        background: none;
+        background: inherit;
         line-height: 35px;
         left: 0;
         box-shadow: none;
@@ -297,7 +298,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
+.actives {
   background-color: #717171;
 }
 
