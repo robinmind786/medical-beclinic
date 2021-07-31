@@ -1,4 +1,14 @@
 @media only screen and (max-width: 600px) {
+	header {
+		overflow-x: hidden;
+	}
+	nav .topnav .nav-links {
+		overflow-x: hidden;
+		width: 80%;
+	}
+	.showcase {
+		overflow-x: hidden;
+	}
 	.info .info-content .info-item .info-body  h2 {
 	    font-size: 20px;
 	}

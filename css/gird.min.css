@@ -5,6 +5,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+.fh {
+  height: 100%;
+}
 
 @media (min-width: 600px) {
   .container {
@@ -90,7 +93,7 @@
   }
   .grid-4 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
