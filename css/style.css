@@ -359,12 +359,11 @@ header {
 }
 
 .booking input[type=text],
-.booking input[type=number],
+.booking input[type=tel],
 .booking input[type=date],
 .booking input[type=time],
-.booking input[type=submit],
-.booking select{
-    width: 300px;
+.booking input[type=submit]{
+
     background-color: var(--main-color);
     border-bottom: 1px solid rgba(255,255,255,0.3);
     color: var(--normal-color);
