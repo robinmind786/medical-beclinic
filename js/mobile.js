@@ -26,4 +26,15 @@ hasCollapsible.forEach(function (collapsible) {
 });
 
 
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.position = "fixed";
+    document.getElementById("navbar").style.boxShadow = "0 8px 16px 0 rgba(0, 0, 0, .3)";
+    document.getElementById("navbar").style.background = "var(--main-color)";
+  } else {
+    document.getElementById("navbar").style.position = null;
+    document.getElementById("navbar").style.background = null;
+  }
+}
