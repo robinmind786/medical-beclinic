@@ -25,7 +25,14 @@
 		padding-right: 0;
 		text-align: center;
 	}
-
+	footer .footer-header {
+		flex-direction: column;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
+	}
 
 }
 
@@ -36,7 +43,14 @@
 	.greeting .greeting-content {
 	    width: 100%;
 	}
-
+	footer .footer-header {
+		flex-direction: column;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -49,6 +63,14 @@
 	.booking .appointment .appointment-content {
 		margin-left: 30%;
 	    
+	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
 	}
 }
 
@@ -63,6 +85,14 @@
 	    float: right;
 	    padding-right: 5rem;
 	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: row;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -75,6 +105,14 @@
 	.booking .appointment .appointment-content {
 	    float: right;
 	    padding-right: 5rem;
+	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: row;
 	}
 }
 

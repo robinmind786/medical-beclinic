@@ -390,3 +390,168 @@ header {
 .booking .section-heading {
     color: var(--normal-color);
 }
+
+
+
+/*Partner*/
+.clinet .clinet-item {
+    width: 100%;
+}
+
+.clinet .clinet-item img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    padding-top: 70px;
+    background: #919ba6;
+}
+
+footer .footer-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-header .subscribe-box .input-box {
+    background: #a1aab3;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--normal-color);
+    margin-bottom: 2rem;
+}
+
+footer .footer-header .subscribe-box .input-box input {
+    background: inherit;
+    width: 100%;
+    padding: 8px 10px;
+}
+
+footer ::placeholder {
+    color: var(--normal-color);
+}
+
+footer .footer-header .subscribe-box .input-box i {
+    padding: 8px 10px;
+    font-size: 25px;
+}
+
+footer .footer-header .footer-social ul {
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+footer .footer-header .footer-social ul li {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+footer .footer-header .footer-social ul li a {
+    text-decoration: none;
+    color: var(--normal-color);
+    transition: all .3s ease;
+}
+
+footer .footer-header .footer-social ul li a:hover {
+    color: var(--main-color);
+}
+
+footer .footer-body {
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+footer .footer-body {
+    padding: 50px 0;
+}
+
+
+
+
+footer .footer-body .footer-body-item .footer-info {
+    padding: 30px 0;
+}
+
+footer .footer-body .footer-body-item {
+    margin: 0 20px;
+}
+
+footer .footer-body  .footer-info ul  {
+    list-style: none;
+}
+
+footer .footer-body  .footer-info ul  li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .3s ease;
+}
+
+footer .footer-body  .footer-info ul  li a:hover {
+    color: var(--dark-color);
+}
+
+footer .footer-body h3 {
+    position: relative;
+    color: var(--normal-color);
+}
+
+footer .footer-body h6 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .3s ease;
+}
+
+
+footer .footer-body h3::before {
+  content: '';
+  bottom: -15px;
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: var(--normal-color);
+}
+
+footer .opening-time {
+    margin-top: 40px;
+}
+footer .opening-time li {
+    line-height: 20px;
+}
+
+footer .footer-info .address li h6{
+    line-height: 20px;
+}
+footer p {
+    color: var(--normal-color);
+    font-family: "Lato", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.75em;
+}
+
+footer .underline {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+footer .footer-bottom {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

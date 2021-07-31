@@ -226,6 +226,7 @@ select {
   position: relative;
   font-family: Arial;
   width: 300px;
+  padding-left: ;
 }
 
 .custom-select select {
