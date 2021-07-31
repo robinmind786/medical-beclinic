@@ -157,3 +157,56 @@ big {
     font-style: normal;
     line-height: 1.75em;
 }
+
+
+
+
+input,
+select,
+textarea {
+  padding: 9.5px 20px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; 
+}
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: 0; 
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px 15px;
+  line-height: 30px; 
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'] {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; 
+}
+
+
+select {
+  width: 100%;
+  max-width: 100%; 
+}

@@ -336,3 +336,58 @@ header {
 .team .team-info .team-name h4 a:hover {
     color: var(--main-color);
 }
+
+.team .team-info .team-phone,
+.team .team-info .team-email {
+    font-size: 1rem;
+}
+
+
+/**/
+.booking .appointment {
+    width: 100%;
+    background: var(--main-color);
+}
+
+.booking .appointment .appointment-content {
+    padding: 50px 0;
+}
+
+
+.booking .appointment .appointment-content .form {
+    line-height: 70px;
+}
+
+.booking input[type=text],
+.booking input[type=number],
+.booking input[type=date],
+.booking input[type=time],
+.booking input[type=submit],
+.booking select{
+    width: 300px;
+    background-color: var(--main-color);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    color: var(--normal-color);
+}
+
+.booking ::placeholder  {
+    color: var(--normal-color);
+}
+
+.booking input[type=submit] {
+    background: var(--normal-color);
+    color: var(--main-color);
+    transition: all .3s ease;
+    border-bottom: none;
+}
+
+.booking input[type=submit]:hover {
+    background: #2980B9;
+    color: var(--normal-color);
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.booking .section-heading {
+    color: var(--normal-color);
+}

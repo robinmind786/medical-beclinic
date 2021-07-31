@@ -21,6 +21,11 @@
 	.reviews .reviews-content .prev {
 	    font-size: 30px;
 	}
+	.booking .appointment .appointment-content {
+		padding-right: 0;
+		text-align: center;
+	}
+
 
 }
 
@@ -41,6 +46,10 @@
 	.greeting .greeting-content {
 	    width: 80%;
 	}
+	.booking .appointment .appointment-content {
+		margin-left: 30%;
+	    
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -50,6 +59,10 @@
 	.greeting .greeting-content {
 	    width: 70%;
 	}
+	.booking .appointment .appointment-content {
+	    float: right;
+	    padding-right: 5rem;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -58,6 +71,10 @@
 	}
 	.greeting .greeting-content {
 	    width: 60%;
+	}
+	.booking .appointment .appointment-content {
+	    float: right;
+	    padding-right: 5rem;
 	}
 }
 
