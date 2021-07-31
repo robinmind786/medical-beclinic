@@ -719,7 +719,17 @@ img {vertical-align: middle;}
     color: var(--normal-color);
 }
 
+.booking-designer {
+    background: white;
+    padding: 0 2rem;
+}
 
+.booking-designer h1 {
+    color: var(--main-color);
+}
+.booking-designer p {
+    color: var(--main-color);
+}
 
 /*Partner*/
 .clinet .clinet-item {
