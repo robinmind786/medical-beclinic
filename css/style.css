@@ -255,16 +255,115 @@ nav .topnav .nav-links .sidenav-logo {
 
 
 
-
-
 .showcase {
-    overflow-x: hidden;
-    background: url('/img/header.jpg') no-repeat center center/cover;
-    height: 100vh;
+    z-index: -1;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 30%;
 }
 
 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.showcase .showcase-heading {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.showcase .showcase-desc {
+    font-size: 2rem;
+}
+
+.showcase .showcase-btn {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.showcase .showcase-btn a {
+    margin: 0 1rem;
+    padding: 16px 2rem;
+    text-decoration: none;
+    border: 2px solid var(--normal-color);
+    color: var(--normal-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.showcase .showcase-btn a:first-child {
+    background: var(--normal-color);
+    color: var(--main-color);
+}
+
+.showcase .showcase-btn a:first-child:hover {
+    background: rgba(0, 0, 0, 0);
+    color: var(--normal-color);
+}
+
+.showcase .showcase-btn a:last-child:hover {
+    background: var(--main-color);
+    border: var(--main-color);
+    color: var(--normal-color);
+}
 
 /*info*/
 .info {
