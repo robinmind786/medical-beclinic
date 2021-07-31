@@ -1,0 +1,212 @@
+@media only screen and (max-width: 600px) {
+	header {
+		overflow-x: hidden;
+	}
+	nav .topnav .nav-links {
+		overflow-x: hidden;
+		width: 80%;
+	}
+	.showcase {
+		overflow-x: hidden;
+	}
+	.info .info-content .info-item .info-body  h2 {
+	    font-size: 20px;
+	}
+	.info {
+	    height: 129vh;
+	}
+	.greeting .greeting-content {
+	    width: 100%;
+	}
+	.reviews .reviews-content .reviews-desc {
+	    padding: 0 20px;
+	}
+	.reviews .reviews-content .reviews-desc h3 {
+		font-size: 16px;
+	}
+	.reviews .reviews-content .next {
+	    font-size: 30px;
+	}
+
+	.reviews .reviews-content .prev {
+	    font-size: 30px;
+	}
+	.booking .appointment .appointment-content {
+		padding-right: 0;
+		text-align: center;
+	}
+	footer .footer-header {
+		flex-direction: column;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.showcase .showcase-heading {
+	    font-size: 1rem;
+	    font-weight: 600;
+	}
+
+	.showcase .showcase-desc {
+	    font-size: 12px;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2px;
+	    padding: 5px;
+	    text-decoration: none;
+	    font-size: 8px;
+	}
+
+
+}
+
+@media only screen and (min-width: 600px) {
+	.info {
+	    height: 110vh;
+	}
+	.greeting .greeting-content {
+	    width: 100%;
+	}
+	footer .footer-header {
+		flex-direction: column;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.showcase .showcase-heading {
+	    font-size: 60px;
+	    font-weight: 600;
+	}
+
+	.showcase .showcase-desc {
+	    font-size: 2rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2px;
+	    padding: 5px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.info {
+	    height: 50vh;
+	}
+	.greeting .greeting-content {
+	    width: 80%;
+	}
+	.booking .appointment .appointment-content {
+		margin-left: 30%;
+	    
+	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: column;
+	}
+	.showcase .showcase-heading {
+	    font-size: 55px;
+	    font-weight: 600;
+	}
+
+	.showcase .showcase-desc {
+	    font-size: 3rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.info {
+	    height: 35vh;
+	}
+	.greeting .greeting-content {
+	    width: 70%;
+	}
+	.booking .appointment .appointment-content {
+	    float: right;
+	    padding-right: 5rem;
+	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: row;
+	}
+	.showcase .showcase-heading {
+	    font-size: 70px;
+	    font-weight: 600;
+	}
+
+	.showcase .showcase-desc {
+	    font-size: 3rem;
+	}
+
+	.showcase .showcase-btn {
+	    margin-top: 5px;
+	    display: flex;
+	    /*flex-direction: column;*/
+	}
+
+	.showcase .showcase-btn a {
+	    margin: 1rem 2rem;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.info {
+	    height: 35vh;
+	}
+	.greeting .greeting-content {
+	    width: 60%;
+	}
+	.booking .appointment .appointment-content {
+	    float: right;
+	    padding-right: 5rem;
+	}
+	footer .footer-header {
+		flex-direction: row;
+	}
+	footer .footer-bottom {
+	    padding: 20px;
+	    display: flex;
+	    flex-direction: row;
+	}
+	.showcase .showcase-btn a {
+	    margin: 1rem 2rem;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 1rem;
+	}
+}
+
